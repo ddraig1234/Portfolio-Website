@@ -109,11 +109,23 @@ a {
   background-size: cover;
 }
 
+@keyframes rotateTheLogo {
+
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+
 .logo {
+  animation: 5s ease 5s 1 rotateTheLogo;
   position: fixed;
   left: 3%;
   top: 47%;
   width: 6%;
+}
+
+.logo:hover {
+	animation: 5s ease 5s 1 rotateTheLogo;
 }
 
 .short-discription-container {
