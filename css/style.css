@@ -379,6 +379,18 @@ a {
   padding-top: 14%;
 }
 
+table {
+	margin: auto;
+}
+
+td {
+	width: 50%;
+	text-align: center;
+	padding: 10px;
+	border-top: 1px solid #000;
+	color: #FDF3E7;
+}
+
 .bg {
   position: absolute;
   left: 1vw;
